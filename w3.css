@@ -1,0 +1,146 @@
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+  /* sign up */
+  /* Styles for signup form */
+.signup-container input[type=text],
+.signup-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.signup-container input[type=text]:focus,
+.signup-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.signup-container hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.signup-container button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 15px; /* Adjust padding for medium size */
+    margin: 8px; /* Add margin between buttons */
+    border: none;
+    cursor: pointer;
+    width: auto; /* Set width to auto */
+    opacity: 0.9;
+  }
+  
+  .signup-container button:hover {
+    opacity: 1;
+  }
+  
+  .signup-container .cancelbtn {
+    padding: 10px 15px; /* Adjust padding for medium size */
+    background-color: #f44336;
+  }
+  
+  .signup-container .cancelbtn,
+  .signup-container .signupbtn {
+    float: none; /* Remove float to stack buttons vertically */
+    width: auto; /* Set width to auto */
+  }
+  .signup-container .signupbtn {
+    float: right; /* Align the signup button to the right */
+    width: auto; /* Set width to auto */
+    margin-left: auto; /* Align the signup button to the right */
+    margin-right: 0; /* Remove any margin on the right */
+  }
+    
+
+.signup-container .container {
+  padding: 16px;
+}
+
+.signup-container .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .signup-container .cancelbtn,
+  .signup-container .signupbtn {
+    width: 100%;
+  }
+}
